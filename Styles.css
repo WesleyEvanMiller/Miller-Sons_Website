@@ -1,0 +1,580 @@
+﻿    body 
+    
+    {
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+    background-image:url('Resources/BackgroundFinal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    
+	#DivWrapper 
+    
+    {
+        width:1124px;
+        height:1343px;
+        position:relative;
+        margin-top:-16px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:-8px;
+
+    }
+    
+   	#DivHeader 
+    
+    {
+        width:1124px;
+        height:168px;
+        position:relative;
+        background-color:white;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: cover;
+
+    }
+    
+    #HeaderLogo
+    
+    {
+        width:620px;
+        height:146px;
+        position:relative;
+        padding-left:25px;
+        padding-top:10px;
+		list-style-type:none;
+		
+
+    }
+
+    #divMenuBar 
+    
+    {
+        width:1124px;
+        height:51px;
+        position:relative;
+        background-image:url('Resources/MenuBar.fw.png');
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: 1124px 51px;
+
+    }
+    
+	#HomeButton 
+	
+	{
+	   	width:191px;
+    	height: 51px;
+        position:absolute;
+        margin-left:72px;
+	    background-image:url('Resources/Home Button.png');
+        background-repeat:no-repeat;
+        background-size: cover;
+
+	}
+	
+		#HomeButton:hover 
+		
+		{
+		
+		    background-image:url('Resources/Home Pushed.png');
+	        background-repeat:no-repeat;
+	        background-size: 191px 51px;
+	
+		}
+			
+	#ShopButton 
+	
+	{
+	   	width:191px;
+    	height: 51px;
+        position:absolute;
+        margin-left:335px;
+	    background-image:url('Resources/Shop Button.png');
+        background-repeat:no-repeat;
+        background-size: cover;
+
+	}
+	
+		#ShopButton:hover 
+		
+		{
+		
+		    background-image:url('Resources/Shop Pushed.png');
+	        background-repeat:no-repeat;
+	        background-size: 191px 51px;
+	
+		}
+		
+	#AboutButton 
+	
+	{
+	   	width:191px;
+    	height: 51px;
+        position:absolute;
+        margin-left:598px;
+	    background-image:url('Resources/About Button.png');
+        background-repeat:no-repeat;
+        background-size: cover;
+
+	}
+	
+		#AboutButton:hover 
+		
+		{
+		
+		    background-image:url('Resources/About Pushed.png');
+	        background-repeat:no-repeat;
+	        background-size: 191px 51px;
+	
+		}
+		
+	#ContactButton 
+	
+	{
+	   	width:191px;
+    	height: 51px;
+        position:absolute;
+        margin-left:861px;
+	    background-image:url('Resources/Contact Button.png');
+        background-repeat:no-repeat;
+        background-size: cover;
+
+	}
+	
+		#ContactButton:hover 
+		
+		{
+		
+		    background-image:url('Resources/Contact Pushed.png');
+	        background-repeat:no-repeat;
+	        background-size: 191px 51px;
+	
+		}
+
+
+		
+    #DivBody 
+    
+    {
+        width:1124px;
+        height:1043px;
+        position:relative;
+        background-color:white;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: cover;
+
+    }
+        
+    #DivSlider
+    
+        {
+        width:1124px;
+        height:474px;
+        position:absolute;
+        background-color:#008C8C;
+        background-position:center;
+        background-repeat:no-repeat;
+        margin-left:auto;
+        margin-right:auto;
+        overflow:hidden;
+
+    }
+    
+    #SliderButtonLeft
+    
+    {
+        width:37px;
+        height:42px;
+        position:absolute;
+        background-image:url('Resources/SliderButtonLeft.png');
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: 37px 42px;
+        margin-left:760px;
+        margin-top:19px;
+
+
+    }
+    
+    #SliderButtonLeft:hover
+    
+    {
+        background-image:url('Resources/SliderButtonLeftHover2.png');
+    }
+
+    
+    
+    #SliderButtonRight
+    
+    {
+        width:37px;
+        height:42px;
+        position:absolute;
+        background-image:url('Resources/SliderButtonRight.png');
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: 37px 42px;
+        margin-left:797px;
+        margin-top:19px;
+
+    }
+
+    #SliderButtonRight:hover
+    
+    {
+        background-image:url('Resources/SliderButtonRightHover.png');
+    }
+    
+    #SliderTextBox
+    
+    {
+        width:900px;
+        height:120px;
+        position:absolute;
+        background-image:url('Resources/SliderTextBox.png');
+        background-position:center;
+        background-repeat:no-repeat;
+        margin-left:112px;
+        margin-top:338px;
+    }
+    
+    .SliderText
+    
+    {
+        width:500px;
+        height:40px;
+        position:absolute;
+        margin-left:30px;
+        margin-top:22px;
+        font-size:22pt;
+        color:white; 
+        
+    }
+    
+    .SliderImage
+    
+    {
+        width:900px;
+        height:474px;
+        position:absolute;
+        margin-left:72px;
+        margin-top:-16px;
+    }
+  
+    #DivFooter 
+    
+    {
+        width:1124px;
+        height:81px;
+        position:absolute;
+        background-color:#222222;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: cover;        
+    }
+    
+    #BottomTextBox
+    
+    {
+		width:1124px;
+        height:15px;
+        position:absolute;
+        padding-top:13px;
+		padding-left:0px;
+        text-align:center;
+        color:white;
+		list-style-type:none;
+	}
+	
+	.bottomLinks
+    
+    {
+        font-size:10pt;
+        color:white;
+        text-decoration: none;
+    }
+	
+	.bottomLinks:hover
+    
+    {
+		text-decoration: underline;
+    }
+	
+	.DividerHorShop
+	{
+		width:1050px;
+        height:6px;
+		position:absolute;
+		margin-left:37px;
+		margin-right:37px;
+		
+	}
+	
+	#DividerTopShop
+	{
+		margin-top:25px;
+	}
+	#DividerSideShop
+	{
+		width:3px;
+        height:800px;
+		position:absolute;
+		margin-top:40px;
+		margin-left:250px;
+	}
+	#DividerUBotShop
+	{
+		margin-top:850px;
+	}
+	#DividerLBotShop
+	{
+		margin-top:900px;	
+	}
+	
+	#GouldsADealer
+	{
+		position:absolute;
+		margin-top:920px;
+		margin-left:462px;	
+	}
+	#GouldsText
+	{
+		position:absolute;
+		margin-top:905px;
+		margin-left:499px;
+		font-size:11px;
+	}
+	
+	#pageNumbers
+	{
+		width:1124px;
+		height:50px;
+		position:absolute;
+		margin-top:838px;
+		text-align:center;
+		color:#444444;
+		font-size:24px;
+	}
+		#next:hover
+		{
+			color: #0080FF;
+			cursor: pointer; 
+			cursor: hand;
+		}	
+		#prev:hover
+		{
+			color: #0080FF;
+			cursor: pointer; 
+			cursor: hand;
+		}
+		#nums:hover
+		{
+			cursor: pointer; 
+			cursor: hand;
+		}
+		.numClicked
+		{
+			color: #0080FF; !important
+		}
+	
+	
+	#DivLeftMenu
+	{
+		width:210px;
+		height:800px;
+		position:absolute;
+		margin-top:40px;
+		margin-left:35px;
+	}
+	
+	#MenuTable
+	{
+		margin-top:25px;
+		padding-left:15px;
+		margin-bottom:20px;
+	}
+	
+	.DivShopContent
+	{
+		width:820px;
+		height:800px;
+		position:absolute;
+		margin-top:45px;
+		margin-left:280px;
+	}
+	
+	.DivItemWindows
+	{
+		width:200px;
+		height:250px;
+		position:relative;
+		float:left;
+		margin-top:10px;
+		margin-left:50px;
+		
+	}
+		.DivItemWindows:hover
+		{
+			outline: grey dashed thin;
+			color: #0080FF;
+		}
+	
+		.DivItemPics
+		{
+			width:125px;
+			height:160px;
+			position:relative;
+			margin-top:10px;
+			margin-left:auto;
+			margin-right:auto;
+			
+		}
+		.DivItemDecription
+		{
+			width:200px;
+			height:60px;
+			position:relative;
+			margin-top:10px;
+			margin-left:auto;
+			margin-right:auto;
+			text-align:center;
+			font-size:14px;
+			
+		}
+		.prices
+		{
+			font-size:12px;
+			color:black; !important
+		}
+		
+	#srBtn
+	{
+		width:65px;
+		height:28px;
+		margin-left:3px
+	}
+	#srBox
+	{
+		width:120px;
+		height:20px;
+		margin-left:-30px;
+	}
+	.filters
+	{
+		margin-top:10px;
+		margin-left:-28px;
+		position:relative;
+		color:#444444;
+	}
+		.filters:hover
+		{
+			color: #0080FF;
+			cursor: pointer; 
+			cursor: hand;
+		}
+		
+	
+	#loginCenter
+	{
+		margin-top:100px;
+		margin-left:410px;
+		position:absolute; 
+		list-style-type:none;
+	}
+	
+	#LogInButton
+	{
+		margin-left:158px;
+	}
+	
+	#manageTable,th,td
+	{
+		border: 1px solid #444444;
+		font-size:12px;
+		color:dark grey;
+		text-align:center;
+		border-collapse: collapse;
+		padding: 0 2px 0 2px;
+	}
+	
+	th
+	{
+		background-color: #ADADAD;
+	}
+	
+	tr:nth-child(even) 
+	{
+    	background-color: #84B9F9;
+	}
+	
+	#tabdiv
+	{
+		width:700px;
+		height:500px;
+		margin:300px auto 0 auto;
+		overflow: auto;
+	}
+	
+	#iSelect
+	{
+		position:absolute;
+		margin:50px 0 0 150px;
+	}
+	#selectedimg
+	{
+		width:175px;
+		height:210px;
+		outline: grey solid thin;
+		position:absolute;
+		background-repeat:no-repeat;
+		background-position:center;
+		margin:-75px 0 0 275px;
+	}
+	#Imgselect
+	{
+		position:absolute;
+		margin:35px 0 0 400px;
+	}
+	#NBox
+	{
+		position:absolute;
+		margin:75px 0 0 150px;
+	}
+	#DBox
+	{
+		position:absolute;
+		margin:100px 0 0 150px;
+	}
+	#PBox
+	{
+		position:absolute;
+		margin:75px 0 0 400px;
+	}
+	#TBox
+	{
+		position:absolute;
+		margin:125px 0 0 400px;
+	}
+	#Addbtn
+	{
+		position:absolute;
+		margin:200px 0 0 602px;
+	}
+	#Editbtn
+	{
+		position:absolute;
+		margin:200px 0 0 660px;
+	}
+	#Deletebtn
+	{
+		position:absolute;
+		margin:200px 0 0 715px;
+	}
+	#logoutbtn
+	{
+		position:absolute;
+		margin:200px 0 0 787px;
+	}

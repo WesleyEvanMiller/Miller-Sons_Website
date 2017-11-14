@@ -1,0 +1,175 @@
+var i = 1;
+
+function pageLoad()
+{
+	document.getElementById("elem1pic").src = "Resources/SliderPic1.png";
+}
+
+function rightButtonClick() 
+{
+		if(i==3)
+			i=0;
+		i++;
+		document.getElementById("elem1pic").src = "Resources/SliderPic"+i+".png";
+		document.getElementById("elem1pic").style.visibility = "visible";
+		
+}
+
+function leftButtonClick() 
+{
+		if(i==1)
+			i=4;
+		i--;
+		document.getElementById("elem1pic").src = "Resources/SliderPic"+i+".png";
+		document.getElementById("elem1pic").style.visibility = "visible";
+}
+
+
+	$query = $handler->prepare('SELECT * FROM inventory');
+	$query->execute();
+	$results = $query->fetchAll(PDO::FETCH_ASSOC);
+	
+	$json = json_encode($results);
+
+
+
+
+			var invItem1 = {title:"10sb05 1/2 hp bruiser", //Div Creation
+				description:"",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			var invItem2 = {title:"10sb07 3/4 hp",
+				description:"",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			var invItem3 = {title:"10sb10 1 hp",
+				description:"",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			var invItem4 = {title:"7sb05 1/2 hp bruiser",
+				description:"",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			var invItem5 = {title:"7sb07 3/4 hp bruiser",
+				description:"",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			var invItem6 = {title:"7sb10 1 hp bruiser",
+				description:"",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			var invItem7 = {title:"5sb05 1/2 hp",
+				description:"",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			var invItem8 = {title:"5sb07 3/4 hp",
+				description:"",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			var invItem9 = {title:"5sb10 1 hp",
+				description:"Testing this now",
+				image:"Resources/BruiserWellPump.png",
+				price:"39.99",
+				tag:"Submersible Well Pumps"
+			};
+			
+			var invItems = [invItem1,invItem2,invItem3,invItem4,invItem5,invItem6,invItem7,invItem8,invItem9];
+
+			function invItem(title, description, image, price, tag) {
+    			this.title = first;
+    			this.description = last;
+    			this.image = age;
+    			this.price = eye;
+				this.tag = tag;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			var i=[$('#page1'),$('#page2')]; //Page change code
+			var onePH=$('#onePlaceHold');
+			var twoPH=$('#twoPlaceHold');
+			var sHide=$('.DivShopContent');
+			var j=0;
+			
+			sHide.hide().first().show();
+			onePH.css({'background-Image':"url('Resources/PlaceHolder1P.png')"});
+			
+			$('#prevButton').on('click',function()
+				{
+					if(j==0)
+						j=2;
+					j--;
+					sHide.hide();
+					$(i[j]).show();
+					if(j==0){
+						onePH.css({'background-Image':"url('Resources/PlaceHolder1P.png')"});
+						twoPH.css({'background-Image':"url('Resources/PlaceHolder2.png')"});}
+					if(j==1){
+						twoPH.css({'background-Image':"url('Resources/PlaceHolder2P.png')"});
+						onePH.css({'background-Image':"url('Resources/PlaceHolder1.png')"});}
+					window.scrollTo(0,240);
+				});
+			$('#nextButton').on('click',function()
+				{	
+					if(j==1)
+						j=-1;
+					j++;
+					sHide.hide();
+					$(i[j]).show();
+					if(j==0){
+						onePH.css({'background-Image':"url('Resources/PlaceHolder1P.png')"});
+						twoPH.css({'background-Image':"url('Resources/PlaceHolder2.png')"});}
+					if(j==1){
+						twoPH.css({'background-Image':"url('Resources/PlaceHolder2P.png')"});
+						onePH.css({'background-Image':"url('Resources/PlaceHolder1.png')"});}
+					window.scrollTo(0,240);
+				});
+				
+			$('#onePlaceHold').on('click',function()
+				{	
+					sHide.hide();
+					onePH.css({'background-Image':"url('Resources/PlaceHolder1P.png')"});
+					twoPH.css({'background-Image':"url('Resources/PlaceHolder2.png')"});
+					$(i[0]).show();
+					window.scrollTo(0,240);
+				});
+			$('#twoPlaceHold').on('click',function()
+				{	
+					sHide.hide();
+					twoPH.css({'background-Image':"url('Resources/PlaceHolder2P.png')"});
+					onePH.css({'background-Image':"url('Resources/PlaceHolder1.png')"});
+					$(i[1]).show();
+					window.scrollTo(0,240);
+				});
